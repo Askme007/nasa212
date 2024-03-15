@@ -1,0 +1,220 @@
+h1,h2,h3{
+    color: aliceblue;
+}
+.main{
+    position: absolute;
+    top: 11%;
+    left: 16%;
+    width: 65%;
+    height: 77%;
+    padding: 23px;
+    border:2px solid rgba(255, 255, 255,0.1);
+    border-bottom:2px solid rgba(255, 255, 255,0.2);
+    border-right:2px solid rgba(255, 255, 255,0.2);
+    margin: 2; 
+    background-image: linear-gradient(200deg, rgba(255, 255, 255,0.15), rgba(255, 255, 255,0));
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 25px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.contact{
+    position: absolute;
+    right: 7%;
+    top: 12%;
+    width: 20%;
+    height: 75%;
+    padding: 10px;
+    border:none;
+    margin: 1;
+}
+.personal{
+    position: absolute;
+    left: 4%;
+    top: 12%;
+    width: 50%;
+    height:75%;
+    padding: 10px;
+    border: none;
+    margin: 1;
+}
+.home{
+    position: absolute;
+    left: 15%;
+    background-color: #eb205dd2; /* Green */
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.blog{
+    position: absolute;
+    left: 35%;
+    background-color: #eb205dd2;/* Green */
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.about{
+    position: absolute;
+    left: 55%;
+    background-color:  #eb205dd2;/* Green */
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.cont{
+    position: absolute;
+    left: 75%;
+    background-color: #eb205dd2; /* Green */
+    border: none;
+    color: #eeb3e6;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 25%;
+    cursor: pointer;
+}
+ 
+.face{
+    position: absolute;
+    top: 85.1%;
+    left: 0%;
+    cursor: pointer;
+}
+.insta{
+    position: absolute;
+    top: 86.5%;
+    left: 31%;
+    cursor: pointer;
+}
+.linkd{
+    position: absolute;
+    top: 86.5%;
+    left: 60%;
+    cursor: pointer;
+}
+body{
+    background-image: url("backimage.png");
+}
+h2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f196db;
+}
+
+h3{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.submit{
+    background-color: #eb205dd2; /* Green */
+    border: 1px solid #d3116bb9;
+    color: white;
+    padding: 9px 10px;
+    margin: 8px 0px;
+    text-align: center;
+    text-decoration: rgb(30, 154, 158);
+    display: flex;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 159;
+    border-radius: 13%;
+    cursor: pointer;
+}
+input[type=text],[type=email]{
+  width: 36%;
+  padding: 12px 19px;
+  margin: 5px 1px;
+  display: inline-flex;
+  border: 1px solid #eba1e48a;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 50;
+  font-style: unset;
+  font-size: 15px;
+  font-style: unset;
+  background-image: linear-gradient(340deg, rgba(78, 33, 69, 0.603), #da2c57ee);
+}
+textarea{
+  width: 73%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #eba1e438;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-style: unset;
+  font-size: 16px;
+  background-image: linear-gradient(340deg, rgba(78, 33, 69, 0.603), #da2c57ee);
+}
+input::placeholder,textarea{
+    color: #080808e0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.logo{
+    top: 0%;
+    left: 1%;
+    width: 15%;
+    height: 13%;
+    padding: 0px 0px;
+    border-radius: 3%;
+}
+
+h1{
+    font-size: 1.7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nasa{
+    color: #ec497a;
+}
+.twoonetwo{
+    color: #c4abcaef;
+}
+.follow{
+    position: absolute;
+    top:74%;
+}
+footer{
+    color: rgb(94, 86, 86);
+    position:absolute;
+    bottom: 0%;
+    left: 39%;
+    right: 35%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
