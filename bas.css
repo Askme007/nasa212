@@ -1,17 +1,22 @@
+*{
+    margin: 0px;
+}
 h1,h2,h3{
     color: aliceblue;
 }
 .main{
-    position: absolute;
-    top: 11%;
-    left: 16%;
-    width: 65%;
-    height: 77%;
-    padding: 23px;
+    position: relative;
+    top: 8px;
+    left: 18%;
+    right: 19%;
+    width: 57%;
+    height: 500px;
+    /* box-sizing: border-box; */
+    padding: 33px;
     border:2px solid rgba(255, 255, 255,0.1);
     border-bottom:2px solid rgba(255, 255, 255,0.2);
     border-right:2px solid rgba(255, 255, 255,0.2);
-    margin: 2; 
+    margin-top: 55px; 
     background-image: linear-gradient(200deg, rgba(255, 255, 255,0.15), rgba(255, 255, 255,0));
     border-radius: 50px;
     backdrop-filter: blur(10px);
@@ -20,105 +25,49 @@ h1,h2,h3{
 }
 .contact{
     position: absolute;
-    right: 7%;
-    top: 12%;
-    width: 20%;
-    height: 75%;
-    padding: 10px;
+    right: 40px;
+    top: 15%;
+    width: 30%;
+    height: 400px;
+    padding: 15px;
     border:none;
-    margin: 1;
+    margin: 2px;
+    box-sizing: border-box;
 }
 .personal{
     position: absolute;
-    left: 4%;
-    top: 12%;
+    left: 6%;
+    top: 16%;
     width: 50%;
     height:75%;
     padding: 10px;
     border: none;
-    margin: 1;
 }
-.home{
+
+
+table{
+    display: inline-block;
     position: absolute;
-    left: 15%;
-    background-color: #eb205dd2; /* Green */
-    border: none;
-    color: white;
-    padding: 9px 13px;
-    text-align: center;
-    text-decoration: cadetblue;
-    display: flex;
-    font-size: 20px;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 900;
-    border-radius: 25%;
-    cursor: pointer;
-}
-.blog{
-    position: absolute;
-    left: 35%;
-    background-color: #eb205dd2;/* Green */
-    border: none;
-    color: white;
-    padding: 9px 13px;
-    text-align: center;
-    text-decoration: cadetblue;
-    display: flex;
-    font-size: 20px;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 900;
-    border-radius: 25%;
-    cursor: pointer;
-}
-.about{
-    position: absolute;
-    left: 55%;
-    background-color:  #eb205dd2;/* Green */
-    border: none;
-    color: white;
-    padding: 9px 13px;
-    text-align: center;
-    text-decoration: cadetblue;
-    display: flex;
-    font-size: 20px;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 900;
-    border-radius: 25%;
-    cursor: pointer;
-}
-.cont{
-    position: absolute;
-    left: 75%;
-    background-color: #eb205dd2; /* Green */
-    border: none;
-    color: #eeb3e6;
-    padding: 9px 13px;
-    text-align: center;
-    text-decoration: cadetblue;
-    display: flex;
-    font-size: 20px;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 900;
-    border-radius: 25%;
-    cursor: pointer;
+    top: 99%;
 }
  
 .face{
-    position: absolute;
-    top: 85.1%;
+    position: sticky;
+    top: 82.1%;
     left: 0%;
     cursor: pointer;
 }
+    
 .insta{
-    position: absolute;
-    top: 86.5%;
-    left: 31%;
+    position: sticky;
+    top: 80.5%;
+    left: 33%;
     cursor: pointer;
 }
 .linkd{
-    position: absolute;
-    top: 86.5%;
-    left: 60%;
+    position: sticky;
+    top: 80.5%;
+    left: 64%;
     cursor: pointer;
 }
 body{
@@ -155,25 +104,25 @@ h3{
 input[type=text],[type=email]{
   width: 36%;
   padding: 12px 19px;
-  margin: 5px 1px;
+  margin: 8px 3px;
   display: inline-flex;
-  border: 1px solid #eba1e48a;
-  border-radius: 5px;
+  /* border: 1px soli  border: 2px solid #b9a2b775;
+ #eba1e48a; */
+  border-radius: 10px;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 50;
   font-style: unset;
   font-size: 15px;
-  font-style: unset;
   background-image: linear-gradient(340deg, rgba(78, 33, 69, 0.603), #da2c57ee);
 }
 textarea{
-  width: 73%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #eba1e438;
-  border-radius: 5px;
+  /* border: 2px solid #b9a2b775; */
+  border-radius: 10px;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 700;
@@ -207,14 +156,91 @@ h1{
 }
 .follow{
     position: absolute;
-    top:74%;
+    top:85%;
 }
 footer{
     color: rgb(94, 86, 86);
     position:absolute;
     bottom: 0%;
-    left: 39%;
-    right: 35%;
+    left: 20%;
+    right: 19%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
+    text-align: center;
 }
+.home{
+    position: absolute;
+    left:16%;
+    background-color: #eb205dd2; /* Green */
+    border-bottom: solid rgba(0, 0, 0, 0.37) ;
+    border-top: solid rgba(83, 3, 37, 0.37) ;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.blog{
+    position: absolute;
+    left: 43%;
+    /* margin-left: 0%; */
+    background-color: #eb205dd2;/* Green */
+    border-bottom: solid rgba(0, 0, 0, 0.37) ;
+    border-top: solid rgba(83, 3, 37, 0.37) ;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.about{
+    position: absolute;
+    left: 70%;
+    background-color:  #eb205dd2;/* Green */
+    border-bottom: solid rgba(0, 0, 0, 0.37) ;
+    border-top: solid rgba(83, 3, 37, 0.37) ;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 16px;
+    cursor: pointer;
+}
+/* .cont{
+    position: absolute;
+    right: 2%;
+    margin-left: 12%;
+    background-color: #eb205dd2;  
+    border-bottom: solid rgba(0, 0, 0, 0.37) ;
+    border-top: solid rgba(83, 3, 37, 0.37) ;  
+    color: white;
+    padding: 9px 9px;
+    text-align: center;
+    text-decoration: cadetblue;
+    display: flex;
+    font-size: 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 900;
+    border-radius: 16px;
+    cursor: pointer;
+} */
+
+/* .menubutton{
+    display: inline-block;
+    position: relative;
+    top: 0%;
+} */
